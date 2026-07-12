@@ -1,0 +1,30 @@
+{
+  "id": "rag-platform",
+  "title": "Rag Platform App",
+  "industry": "AI/ML Platforms & Dev Tools",
+  "industryId": "ai-ml-platforms-dev-tools",
+  "specialization": "Rag Platform",
+  "sourcePlatformGroup": "ai-agent-infrastructure-platform",
+  "sources": [
+    "AIDeepfakeDetectionPlatform",
+    "AIDigitalTwinPlatform",
+    "AIFineTuningPlatform",
+    "AIRAGPlatform"
+  ],
+  "featureCount": 362,
+  "candidateFeatureCount": 494,
+  "eliminatedSimilarFeatures": 132,
+  "evidenceCount": 1011,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 3,
+    "seededTables": 46,
+    "seededRows": 777
+  },
+  "visibleFeatureCount": 27,
+  "featureVisibilityMode": "seeded-or-ai"
+}
