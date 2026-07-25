@@ -1,5 +1,243 @@
 [
   {
+    "name": "Activity",
+    "canonicalKey": "activity",
+    "aliases": [
+      "Activity Page"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/Activity",
+      "/ActivityPage",
+      "/activity",
+      "activity"
+    ],
+    "sourceProjects": [
+      "AIDeepfakeDetectionPlatform",
+      "AIFineTuningPlatform",
+      "AIRAGPlatform",
+      "AiDataAnalyst",
+      "ai-operating-system-for-companies"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/code-interpreter",
+      "ai-ml-platforms-dev-tools/rag-platform",
+      "ai-ml-platforms-dev-tools/synthetic-data-generator"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-operating-system-for-companies",
+        "path": "frontend/src/App.tsx:83",
+        "route": "/activity",
+        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-operating-system-for-companies",
+        "path": "frontend/src/pages/ActivityPage.tsx",
+        "route": "/ActivityPage",
+        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDeepfakeDetectionPlatform",
+        "path": "backend/src/routes/extra.js:455",
+        "route": "/activity",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDeepfakeDetectionPlatform",
+        "path": "frontend/src/App.jsx:87",
+        "route": "/activity",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDeepfakeDetectionPlatform",
+        "path": "frontend/src/pages/Dashboard.jsx:69",
+        "route": "/activity",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/App.jsx:111",
+        "route": "/activity",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/components/Layout.jsx:74",
+        "route": "/activity",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIRAGPlatform",
+        "path": "frontend/src/App.jsx:74",
+        "route": "activity",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIRAGPlatform",
+        "path": "frontend/src/components/Sidebar.jsx:16",
+        "route": "/activity",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIRAGPlatform",
+        "path": "frontend/src/pages/Dashboard.jsx:98",
+        "route": "/activity",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/ActivityPage.jsx",
+        "route": "/ActivityPage",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiDataAnalyst",
+        "path": "backend/src/routes/api.js:1205",
+        "route": "/activity",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiDataAnalyst",
+        "path": "frontend/src/App.jsx:119",
+        "route": "activity",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiDataAnalyst",
+        "path": "frontend/src/components/Layout.jsx:66",
+        "route": "/activity",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiDataAnalyst",
+        "path": "frontend/src/pages/Activity.jsx",
+        "route": "/Activity",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiDataAnalyst",
+        "path": "frontend/src/pages/Dashboard.jsx:110",
+        "route": "/activity",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
+      }
+    ]
+  },
+  {
+    "name": "Activity Feed",
+    "canonicalKey": "activity feed",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ActivityFeed"
+    ],
+    "sourceProjects": [
+      "AIDeepfakeDetectionPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDeepfakeDetectionPlatform",
+        "path": "frontend/src/pages/ActivityFeed.jsx",
+        "route": "/ActivityFeed",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      }
+    ]
+  },
+  {
+    "name": "Actor Id",
+    "canonicalKey": "actor id",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/by-actor/:actorId"
+    ],
+    "sourceProjects": [
+      "AIDeepfakeDetectionPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDeepfakeDetectionPlatform",
+        "path": "backend/src/routes/tsFeat_csamHashMatch.js:105",
+        "route": "/by-actor/:actorId",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      }
+    ]
+  },
+  {
+    "name": "Admin Settings",
+    "canonicalKey": "admin setting",
+    "aliases": [
+      "Admin Settings Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AdminSettingsPage",
+      "/admin-settings"
+    ],
+    "sourceProjects": [
+      "AIFineTuningPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/App.jsx:109",
+        "route": "/admin-settings",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/components/Layout.jsx:83",
+        "route": "/admin-settings",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/AdminSettingsPage.jsx",
+        "route": "/AdminSettingsPage",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      }
+    ]
+  },
+  {
     "name": "AI Evaluate",
     "canonicalKey": "ai evaluate",
     "aliases": [],
@@ -75,6 +313,34 @@
     "evidence": [
       {
         "kind": "navigation",
+        "sourceProject": "AIassistant",
+        "path": "frontend/src/components/Sidebar.js:9",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIassistant",
+        "path": "frontend/src/App.js:64",
+        "route": "/ai-hub",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIassistant",
+        "path": "frontend/src/components/Sidebar.js:9",
+        "route": "/ai-hub",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIassistant",
+        "path": "frontend/src/pages/AIHub.js",
+        "route": "/AIHub",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "navigation",
         "sourceProject": "AIRAGPlatform",
         "path": "frontend/src/components/Sidebar.jsx:22",
         "route": "",
@@ -107,34 +373,6 @@
         "path": "frontend/src/pages/Dashboard.jsx:8",
         "route": "/ai-hub",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIassistant",
-        "path": "frontend/src/components/Sidebar.js:9",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIassistant",
-        "path": "frontend/src/App.js:64",
-        "route": "/ai-hub",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIassistant",
-        "path": "frontend/src/components/Sidebar.js:9",
-        "route": "/ai-hub",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIassistant",
-        "path": "frontend/src/pages/AIHub.js",
-        "route": "/AIHub",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
       }
     ]
   },
@@ -220,51 +458,6 @@
         "path": "backend/src/routes/baseModels.js:147",
         "route": "/ai-recommend",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      }
-    ]
-  },
-  {
-    "name": "AI Results Page",
-    "canonicalKey": "ai results",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/AIResultsPage",
-      "/AiResultsPage"
-    ],
-    "sourceProjects": [
-      "AIFineTuningPlatform",
-      "AIModelCostOrchestrator",
-      "merged2"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/automateinternational",
-      "ai-ml-platforms-dev-tools/dynamiclocationaware",
-      "ai-ml-platforms-dev-tools/rag-platform"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "frontend/src/pages/AiResultsPage.jsx",
-        "route": "/AiResultsPage",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIModelCostOrchestrator",
-        "path": "client/src/pages/AIResultsPage.jsx",
-        "route": "/AIResultsPage",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/AIAgricultureAssistant/frontend/src/pages/AIResultsPage.jsx",
-        "route": "/AIResultsPage",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
       }
     ]
   },
@@ -395,7 +588,6 @@
       "AI Tools Page"
     ],
     "kinds": [
-      "api",
       "navigation",
       "page"
     ],
@@ -416,9 +608,6 @@
       "/api/v1/ai",
       "/dashboard/ai",
       "/dashboard/ai-tools",
-      "/mrl/:crop/:ai",
-      "ai",
-      "ai-center",
       "ai-features",
       "ai-tools"
     ],
@@ -438,14 +627,9 @@
       "AIpoweredinteractive",
       "AiDataAnalyst",
       "ai-operating-system-for-companies",
-      "company-brain",
-      "dynamic-software-interfaces",
-      "integrator",
       "makepdf",
-      "merged2",
       "noCodeAIAgency",
-      "saas-challengers",
-      "software-for-agents"
+      "saas-challengers"
     ],
     "consolidatedFromApps": [
       "ai-ml-platforms-dev-tools/assistant",
@@ -464,79 +648,9 @@
       {
         "kind": "page",
         "sourceProject": "ai-operating-system-for-companies",
-        "path": "frontend/src/App.tsx:69",
+        "path": "frontend/src/App.tsx:71",
         "route": "/ai-center",
         "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "noCodeAIAgency",
-        "path": "src/app/dashboard/ai/page.tsx",
-        "route": "/dashboard/ai",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAppointmentSchedulerwithNLP",
-        "path": "frontend/src/pages/AIFeatures.jsx",
-        "route": "/AIFeatures",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "noCodeAIAgency",
-        "path": "src/components/layout/Sidebar.tsx:65",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "dynamic-software-interfaces",
-        "path": "frontend/src/App.tsx:67",
-        "route": "/ai",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "software-for-agents",
-        "path": "frontend/src/App.tsx:60",
-        "route": "ai-center",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "makepdf",
-        "path": "makepdf/web/routes/ai_results.py:65",
-        "route": "/ai-tools",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "company-brain",
-        "path": "frontend/src/App.tsx:72",
-        "route": "/ai",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "saas-challengers",
-        "path": "frontend/src/App.tsx:67",
-        "route": "ai",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "saas-challengers",
-        "path": "frontend/src/pages/AICenterPage.tsx",
-        "route": "/AICenterPage",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "integrator",
-        "path": "frontend/src/App.jsx:49",
-        "route": "/ai",
-        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
       },
       {
         "kind": "page",
@@ -593,6 +707,104 @@
         "path": "frontend/src/pages/AITools.js",
         "route": "/AITools",
         "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "saas-challengers",
+        "path": "frontend/src/pages/AICenterPage.tsx",
+        "route": "/AICenterPage",
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "noCodeAIAgency",
+        "path": "src/app/dashboard/ai/page.tsx",
+        "route": "/dashboard/ai",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAppointmentSchedulerwithNLP",
+        "path": "frontend/src/pages/AIFeatures.jsx",
+        "route": "/AIFeatures",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "noCodeAIAgency",
+        "path": "src/components/layout/Sidebar.tsx:65",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "makepdf",
+        "path": "makepdf/web/routes/ai_results.py:65",
+        "route": "/ai-tools",
+        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIobservability",
+        "path": "backend/app/api/v1/ai.py",
+        "route": "/api/v1/ai",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIpoweredinteractive",
+        "path": "frontend/src/App.js:103",
+        "route": "/ai",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIpoweredinteractive",
+        "path": "frontend/src/components/Layout.js:7",
+        "route": "/ai",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIpoweredinteractive",
+        "path": "frontend/src/pages/Dashboard.js:22",
+        "route": "/ai",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/App.jsx:56",
+        "route": "/dashboard/ai-tools",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/components/AppLayout.jsx:42",
+        "route": "/dashboard/ai-tools",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/components/Sidebar.js:73",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "client/src/pages/AIToolsPage.jsx",
+        "route": "/AIToolsPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMultiAgentSimulationPlatform",
+        "path": "frontend/src/pages/AIPage.js",
+        "route": "/AIPage",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
       },
       {
         "kind": "page",
@@ -707,336 +919,11 @@
         "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
       },
       {
-        "kind": "page",
-        "sourceProject": "AIobservability",
-        "path": "backend/app/api/v1/ai.py",
-        "route": "/api/v1/ai",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIpoweredinteractive",
-        "path": "frontend/src/App.js:103",
-        "route": "/ai",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIpoweredinteractive",
-        "path": "frontend/src/components/Layout.js:7",
-        "route": "/ai",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIpoweredinteractive",
-        "path": "frontend/src/pages/Dashboard.js:22",
-        "route": "/ai",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIModelCostOrchestrator",
-        "path": "client/src/App.jsx:56",
-        "route": "/dashboard/ai-tools",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIModelCostOrchestrator",
-        "path": "client/src/components/AppLayout.jsx:42",
-        "route": "/dashboard/ai-tools",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIQuantumComputingAssistant",
-        "path": "client/src/components/Sidebar.js:73",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIModelCostOrchestrator",
-        "path": "client/src/pages/AIToolsPage.jsx",
-        "route": "/AIToolsPage",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMultiAgentSimulationPlatform",
-        "path": "frontend/src/pages/AIPage.js",
-        "route": "/AIPage",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/ai-low-pesticide-agriculture/backend/routes/cf-residue-audit-trail.js:196",
-        "route": "/mrl/:crop/:ai",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/ai-low-pesticide-agriculture/frontend/src/App.tsx:68",
-        "route": "/ai-center",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      },
-      {
         "kind": "navigation",
         "sourceProject": "AIAutomateinternational",
-        "path": "frontend/src/components/Navbar.js:32",
+        "path": "frontend/src/components/Navbar.jsx:32",
         "route": "",
         "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      }
-    ]
-  },
-  {
-    "name": "Activity",
-    "canonicalKey": "activity",
-    "aliases": [
-      "Activity Page"
-    ],
-    "kinds": [
-      "api",
-      "page"
-    ],
-    "routes": [
-      "/Activity",
-      "/ActivityPage",
-      "/activity",
-      "/utility/activity",
-      "activity"
-    ],
-    "sourceProjects": [
-      "AIDeepfakeDetectionPlatform",
-      "AIFineTuningPlatform",
-      "AIRAGPlatform",
-      "AiDataAnalyst",
-      "ai-operating-system-for-companies",
-      "merged2"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/automateinternational",
-      "ai-ml-platforms-dev-tools/code-interpreter",
-      "ai-ml-platforms-dev-tools/rag-platform",
-      "ai-ml-platforms-dev-tools/synthetic-data-generator"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "ai-operating-system-for-companies",
-        "path": "frontend/src/App.tsx:81",
-        "route": "/activity",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "ai-operating-system-for-companies",
-        "path": "frontend/src/pages/ActivityPage.tsx",
-        "route": "/ActivityPage",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDeepfakeDetectionPlatform",
-        "path": "backend/src/routes/extra.js:455",
-        "route": "/activity",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDeepfakeDetectionPlatform",
-        "path": "frontend/src/App.jsx:87",
-        "route": "/activity",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDeepfakeDetectionPlatform",
-        "path": "frontend/src/pages/Dashboard.jsx:69",
-        "route": "/activity",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "frontend/src/App.jsx:111",
-        "route": "/activity",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "frontend/src/components/Layout.jsx:74",
-        "route": "/activity",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRAGPlatform",
-        "path": "frontend/src/App.jsx:74",
-        "route": "activity",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRAGPlatform",
-        "path": "frontend/src/components/Sidebar.jsx:16",
-        "route": "/activity",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRAGPlatform",
-        "path": "frontend/src/pages/Dashboard.jsx:98",
-        "route": "/activity",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "frontend/src/pages/ActivityPage.jsx",
-        "route": "/ActivityPage",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiDataAnalyst",
-        "path": "backend/src/routes/api.js:1205",
-        "route": "/activity",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiDataAnalyst",
-        "path": "frontend/src/App.jsx:119",
-        "route": "activity",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiDataAnalyst",
-        "path": "frontend/src/components/Layout.jsx:66",
-        "route": "/activity",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiDataAnalyst",
-        "path": "frontend/src/pages/Activity.jsx",
-        "route": "/Activity",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiDataAnalyst",
-        "path": "frontend/src/pages/Dashboard.jsx:110",
-        "route": "/activity",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/ai-low-pesticide-agriculture/frontend/src/App.tsx:76",
-        "route": "/utility/activity",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      }
-    ]
-  },
-  {
-    "name": "Activity Feed",
-    "canonicalKey": "activity feed",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/ActivityFeed"
-    ],
-    "sourceProjects": [
-      "AIDeepfakeDetectionPlatform"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/rag-platform"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIDeepfakeDetectionPlatform",
-        "path": "frontend/src/pages/ActivityFeed.jsx",
-        "route": "/ActivityFeed",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      }
-    ]
-  },
-  {
-    "name": "Actor Id",
-    "canonicalKey": "actor id",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/by-actor/:actorId"
-    ],
-    "sourceProjects": [
-      "AIDeepfakeDetectionPlatform"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/rag-platform"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIDeepfakeDetectionPlatform",
-        "path": "backend/src/routes/tsFeat_csamHashMatch.js:105",
-        "route": "/by-actor/:actorId",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      }
-    ]
-  },
-  {
-    "name": "Admin Settings",
-    "canonicalKey": "admin setting",
-    "aliases": [
-      "Admin Settings Page"
-    ],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/AdminSettingsPage",
-      "/admin-settings"
-    ],
-    "sourceProjects": [
-      "AIFineTuningPlatform"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/rag-platform"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "frontend/src/App.jsx:109",
-        "route": "/admin-settings",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "frontend/src/components/Layout.jsx:83",
-        "route": "/admin-settings",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "frontend/src/pages/AdminSettingsPage.jsx",
-        "route": "/AdminSettingsPage",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       }
     ]
   },
@@ -1087,6 +974,34 @@
     "evidence": [
       {
         "kind": "navigation",
+        "sourceProject": "AINetworkascodeplatform",
+        "path": "frontend/src/components/Sidebar.jsx:67",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/components/Navbar.jsx:10",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/App.jsx:106",
+        "route": "/analytics",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/pages/Analytics.jsx",
+        "route": "/Analytics",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "navigation",
         "sourceProject": "AIChatbotBuilder",
         "path": "frontend/src/components/Sidebar.jsx:34",
         "route": "",
@@ -1121,9 +1036,86 @@
         "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
       },
       {
+        "kind": "page",
+        "sourceProject": "AIKnowledgeBaseWikiGenerator",
+        "path": "frontend/src/App.js:93",
+        "route": "analytics",
+        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIKnowledgeBaseWikiGenerator",
+        "path": "frontend/src/components/Layout.js:34",
+        "route": "/analytics",
+        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIKnowledgeBaseWikiGenerator",
+        "path": "frontend/src/pages/Analytics.js",
+        "route": "/Analytics",
+        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "luranAI",
+        "path": "src/components/layout/Sidebar.tsx:151",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "luranAI",
+        "path": "src/app/(dashboard)/analytics/page.tsx",
+        "route": "/analytics",
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIEmailTriageResponseAgent",
+        "path": "frontend/src/App.jsx:94",
+        "route": "/analytics",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIEmailTriageResponseAgent",
+        "path": "frontend/src/components/Layout.jsx:28",
+        "route": "/analytics",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIEmailTriageResponseAgent",
+        "path": "frontend/src/pages/Analytics.jsx",
+        "route": "/Analytics",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIEmailTriageResponseAgent",
+        "path": "frontend/src/pages/Dashboard.jsx:161",
+        "route": "/analytics",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "document_management",
+        "path": "backend/src/routes/publishing.ts:443",
+        "route": "/distribution/analytics",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "document_management",
+        "path": "frontend/src/app/analytics/page.tsx",
+        "route": "/analytics",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
         "kind": "api",
         "sourceProject": "AIOnboardingFlowCreator",
-        "path": "backend/src/routes/index.js:91",
+        "path": "backend/src/routes/index.js:92",
         "route": "/flows/:flowId/analytics",
         "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
       },
@@ -1157,108 +1149,38 @@
       },
       {
         "kind": "navigation",
-        "sourceProject": "luranAI",
-        "path": "src/components/layout/Sidebar.tsx:151",
+        "sourceProject": "AIassistant",
+        "path": "frontend/src/components/Sidebar.js:21",
         "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
       },
       {
         "kind": "page",
-        "sourceProject": "luranAI",
-        "path": "src/app/(dashboard)/analytics/page.tsx",
+        "sourceProject": "AIassistant",
+        "path": "frontend/src/App.js:63",
         "route": "/analytics",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
       },
       {
         "kind": "page",
-        "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "frontend/src/App.js:93",
-        "route": "analytics",
-        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "frontend/src/components/Layout.js:34",
+        "sourceProject": "AIassistant",
+        "path": "frontend/src/components/Sidebar.js:21",
         "route": "/analytics",
-        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
       },
       {
         "kind": "page",
-        "sourceProject": "AIKnowledgeBaseWikiGenerator",
+        "sourceProject": "AIassistant",
         "path": "frontend/src/pages/Analytics.js",
         "route": "/Analytics",
-        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AINetworkascodeplatform",
-        "path": "frontend/src/components/Sidebar.jsx:67",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIProjectManager",
-        "path": "frontend/src/components/Navbar.jsx:10",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
       },
       {
         "kind": "page",
-        "sourceProject": "AIProjectManager",
-        "path": "frontend/src/App.jsx:106",
+        "sourceProject": "AIassistant",
+        "path": "frontend/src/pages/Dashboard.js:124",
         "route": "/analytics",
-        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIProjectManager",
-        "path": "frontend/src/pages/Analytics.jsx",
-        "route": "/Analytics",
-        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "document_management",
-        "path": "backend/src/routes/publishing.ts:443",
-        "route": "/distribution/analytics",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "document_management",
-        "path": "frontend/src/app/analytics/page.tsx",
-        "route": "/analytics",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIEmailTriageResponseAgent",
-        "path": "frontend/src/App.jsx:94",
-        "route": "/analytics",
-        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIEmailTriageResponseAgent",
-        "path": "frontend/src/components/Layout.jsx:28",
-        "route": "/analytics",
-        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIEmailTriageResponseAgent",
-        "path": "frontend/src/pages/Analytics.jsx",
-        "route": "/Analytics",
-        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIEmailTriageResponseAgent",
-        "path": "frontend/src/pages/Dashboard.jsx:161",
-        "route": "/analytics",
-        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
       },
       {
         "kind": "page",
@@ -1364,41 +1286,6 @@
         "path": "frontend/src/pages/Dashboard.jsx:68",
         "route": "/analytics",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIassistant",
-        "path": "frontend/src/components/Sidebar.js:21",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIassistant",
-        "path": "frontend/src/App.js:63",
-        "route": "/analytics",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIassistant",
-        "path": "frontend/src/components/Sidebar.js:21",
-        "route": "/analytics",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIassistant",
-        "path": "frontend/src/pages/Analytics.js",
-        "route": "/Analytics",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIassistant",
-        "path": "frontend/src/pages/Dashboard.js:124",
-        "route": "/analytics",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
       },
       {
         "kind": "navigation",
@@ -2567,7 +2454,7 @@
   },
   {
     "name": "Classify Comms Tone",
-    "canonicalKey": "classify comms tone",
+    "canonicalKey": "classify comm tone",
     "aliases": [],
     "kinds": [
       "api"
@@ -2904,41 +2791,6 @@
     ]
   },
   {
-    "name": "Comments Page",
-    "canonicalKey": "comments",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/CommentsPage"
-    ],
-    "sourceProjects": [
-      "AIFineTuningPlatform",
-      "saas-challengers"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/luran-ai",
-      "ai-ml-platforms-dev-tools/rag-platform"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "saas-challengers",
-        "path": "frontend/src/pages/CommentsPage.tsx",
-        "route": "/CommentsPage",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "frontend/src/pages/CommentsPage.jsx",
-        "route": "/CommentsPage",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      }
-    ]
-  },
-  {
     "name": "Compare",
     "canonicalKey": "compare",
     "aliases": [],
@@ -2983,6 +2835,20 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/benchmarks.js:84",
+        "route": "/ai/compare",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "mcpServer",
+        "path": "backend/routes/evalHarness.js:58",
+        "route": "/compare",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIDeepfakeDetectionPlatform",
         "path": "backend/src/routes/extra.js:823",
         "route": "/compare",
@@ -3008,20 +2874,6 @@
         "path": "backend/src/routes/semanticMetricDrift.js:16",
         "route": "/compare",
         "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIModelCostOrchestrator",
-        "path": "server/routes/benchmarks.js:84",
-        "route": "/ai/compare",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "mcpServer",
-        "path": "backend/routes/evalHarness.js:58",
-        "route": "/compare",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
       }
     ]
   },
@@ -3047,6 +2899,72 @@
         "sourceProject": "AIFineTuningPlatform",
         "path": "backend/src/routes/customModels.js:259",
         "route": "/:id/compare-to-base",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      }
+    ]
+  },
+  {
+    "name": "Comparison",
+    "canonicalKey": "comparison",
+    "aliases": [],
+    "kinds": [
+      "model",
+      "page"
+    ],
+    "routes": [
+      "/Comparison",
+      "/comparison",
+      "/comparisons"
+    ],
+    "sourceProjects": [
+      "AIDigitalTwinPlatform",
+      "pdfgenius"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/pdfgenius-merged",
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "pdfgenius",
+        "path": "src/models/Comparison.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "pdfgenius",
+        "path": "src/pages/Comparison/index.js",
+        "route": "/Comparison",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "pdfgenius",
+        "path": "src/routes/search.routes.js:74",
+        "route": "/comparisons",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDigitalTwinPlatform",
+        "path": "client/src/App.jsx:88",
+        "route": "/comparison",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDigitalTwinPlatform",
+        "path": "client/src/components/Sidebar.jsx:23",
+        "route": "/comparison",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDigitalTwinPlatform",
+        "path": "client/src/pages/Dashboard.jsx:23",
+        "route": "/comparison",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       }
     ]
@@ -3554,6 +3472,13 @@
         "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
       },
       {
+        "kind": "api",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "backend/src/routes/governedLifecycle.js:23",
+        "route": "/datasets",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
         "path": "frontend/src/App.jsx:86",
@@ -3576,6 +3501,13 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/DatasetsPage.jsx",
+        "route": "/DatasetsPage",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AISyntheticDataGenerator",
         "path": "frontend/src/pages/DatasetDetail.jsx",
         "route": "/DatasetDetail",
@@ -3587,13 +3519,6 @@
         "path": "backend/src/routes/customViews.js:118",
         "route": "/datasets",
         "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "frontend/src/pages/DatasetsPage.jsx",
-        "route": "/DatasetsPage",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       }
     ]
   },
@@ -3722,32 +3647,6 @@
         "sourceProject": "AIFineTuningPlatform",
         "path": "frontend/src/pages/DeploymentTemplatesPage.jsx",
         "route": "/DeploymentTemplatesPage",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      }
-    ]
-  },
-  {
-    "name": "Deployments Page",
-    "canonicalKey": "deployments",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/DeploymentsPage"
-    ],
-    "sourceProjects": [
-      "AIFineTuningPlatform"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/rag-platform"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "frontend/src/pages/DeploymentsPage.jsx",
-        "route": "/DeploymentsPage",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       }
     ]
@@ -4130,6 +4029,278 @@
     ]
   },
   {
+    "name": "Documents",
+    "canonicalKey": "document",
+    "aliases": [
+      "Document",
+      "Document Detail",
+      "Document Page",
+      "Documents Page"
+    ],
+    "kinds": [
+      "api",
+      "model",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/DocumentDetail",
+      "/Documents",
+      "/DocumentsPage",
+      "/analyze/document",
+      "/classify/document",
+      "/documents",
+      "/rag/documents",
+      "/{tag_id}/documents",
+      "documents"
+    ],
+    "sourceProjects": [
+      "AILocalFirstAgent",
+      "AIProjectManager",
+      "AIRAGPlatform",
+      "AISMSchatbot",
+      "AiBusinessAutomation",
+      "company-brain",
+      "document_management",
+      "pdfgenius"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/agent-observability-plus",
+      "ai-ml-platforms-dev-tools/automateinternational",
+      "ai-ml-platforms-dev-tools/browser-extension-platform",
+      "ai-ml-platforms-dev-tools/luran-ai",
+      "ai-ml-platforms-dev-tools/pdfgenius-merged",
+      "ai-ml-platforms-dev-tools/product-management-copilot",
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/components/Navbar.jsx:37",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/App.jsx:108",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/pages/Dashboard.jsx:13",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIProjectManager",
+        "path": "frontend/src/pages/Documents.jsx",
+        "route": "/Documents",
+        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISMSchatbot",
+        "path": "client/src/App.js:73",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISMSchatbot",
+        "path": "client/src/components/Layout.js:13",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISMSchatbot",
+        "path": "client/src/pages/Dashboard.js:20",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISMSchatbot",
+        "path": "client/src/pages/Documents.js",
+        "route": "/Documents",
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "company-brain",
+        "path": "frontend/src/components/Layout.tsx:7",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "company-brain",
+        "path": "frontend/src/pages/DocumentsPage.tsx",
+        "route": "/DocumentsPage",
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "pdfgenius",
+        "path": "src/pages/DocumentDetail/index.js",
+        "route": "/DocumentDetail",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "model",
+        "sourceProject": "pdfgenius",
+        "path": "src/models/DocumentPage.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "model",
+        "sourceProject": "pdfgenius",
+        "path": "src/models/Document.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "pdfgenius",
+        "path": "src/App.js:38",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "pdfgenius",
+        "path": "src/pages/Documents/index.js",
+        "route": "/Documents",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "pdfgenius",
+        "path": "src/routes/search.routes.js:11",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "document_management",
+        "path": "ai-services/main.py:266",
+        "route": "/classify/document",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "document_management",
+        "path": "ai-services/main.py:333",
+        "route": "/analyze/document",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "document_management",
+        "path": "frontend/src/app/documents/page.tsx",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILocalFirstAgent",
+        "path": "backend/routes/crdt.js:108",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILocalFirstAgent",
+        "path": "backend/routes/crdt.js:116",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIRAGPlatform",
+        "path": "frontend/src/pages/DocumentDetail.jsx",
+        "route": "/DocumentDetail",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRAGPlatform",
+        "path": "backend/routers/tags.py:77",
+        "route": "/{tag_id}/documents",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIRAGPlatform",
+        "path": "frontend/src/components/Sidebar.jsx:8",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIRAGPlatform",
+        "path": "frontend/src/App.jsx:64",
+        "route": "documents",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIRAGPlatform",
+        "path": "frontend/src/components/Sidebar.jsx:8",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIRAGPlatform",
+        "path": "frontend/src/pages/Dashboard.jsx:18",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIRAGPlatform",
+        "path": "frontend/src/pages/Documents.jsx",
+        "route": "/Documents",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiBusinessAutomation",
+        "path": "backend/src/routes/backlogPass5.js:302",
+        "route": "/rag/documents",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiBusinessAutomation",
+        "path": "backend/src/routes/backlogPass5.js:317",
+        "route": "/rag/documents",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiBusinessAutomation",
+        "path": "frontend/src/App.js:438",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiBusinessAutomation",
+        "path": "frontend/src/App.js:675",
+        "route": "/documents",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
+      }
+    ]
+  },
+  {
     "name": "Draft Notice Letter",
     "canonicalKey": "draft letter notice",
     "aliases": [],
@@ -4254,19 +4425,80 @@
       "Evaluations Page"
     ],
     "kinds": [
+      "api",
       "page"
     ],
     "routes": [
       "/EvaluationsPage",
-      "/evaluations"
+      "/api/governance/evaluations",
+      "/evaluations",
+      "/jobs/:id/evaluations",
+      "/specs/:id/evaluations"
     ],
     "sourceProjects": [
-      "AIFineTuningPlatform"
+      "AIAgentMemoryStore",
+      "AIFineTuningPlatform",
+      "AIMultiAgentSimulationPlatform",
+      "AISyntheticDataGenerator",
+      "AIobservability",
+      "AIondistributedcloud",
+      "AIpoweredinteractive",
+      "AiBusinessAutomation",
+      "AiDataAnalyst",
+      "aIDocumentationAssistant"
     ],
     "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/rag-platform"
+      "ai-ml-platforms-dev-tools/agent-observability-plus",
+      "ai-ml-platforms-dev-tools/assistant",
+      "ai-ml-platforms-dev-tools/automateinternational",
+      "ai-ml-platforms-dev-tools/dev-ops-infrastructure",
+      "ai-ml-platforms-dev-tools/mcp-server",
+      "ai-ml-platforms-dev-tools/rag-platform",
+      "ai-ml-platforms-dev-tools/synthetic-data-generator"
     ],
     "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIDocumentationAssistant",
+        "path": "src/pages/api/governance/evaluations/index.ts",
+        "route": "/api/governance/evaluations",
+        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAgentMemoryStore",
+        "path": "backend/routes/tenantMemoryWorkflow.js:9",
+        "route": "/evaluations",
+        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIobservability",
+        "path": "backend/app/api/v1/authoritative.py:69",
+        "route": "/evaluations",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIondistributedcloud",
+        "path": "backend/routes/authoritative.js:14",
+        "route": "/evaluations",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredinteractive",
+        "path": "backend/routes/authoritative.js:11",
+        "route": "/evaluations",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMultiAgentSimulationPlatform",
+        "path": "backend/routes/governedRuns.js:178",
+        "route": "/specs/:id/evaluations",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
+      },
       {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
@@ -4287,6 +4519,27 @@
         "path": "frontend/src/pages/EvaluationsPage.jsx",
         "route": "/EvaluationsPage",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISyntheticDataGenerator",
+        "path": "backend/routes/governedSynthesis.js:10",
+        "route": "/jobs/:id/evaluations",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiDataAnalyst",
+        "path": "backend/src/governance/routes.js:13",
+        "route": "/evaluations",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiBusinessAutomation",
+        "path": "backend/src/routes/authoritative.js:10",
+        "route": "/evaluations",
+        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
       }
     ]
   },
@@ -4544,17 +4797,17 @@
     "evidence": [
       {
         "kind": "page",
-        "sourceProject": "AIDeepfakeDetectionPlatform",
-        "path": "frontend/src/pages/FeatureDetail.jsx",
-        "route": "/FeatureDetail",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AIModelCostOrchestrator",
         "path": "client/src/pages/FeatureDetail.jsx",
         "route": "/FeatureDetail",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDeepfakeDetectionPlatform",
+        "path": "frontend/src/pages/FeatureDetail.jsx",
+        "route": "/FeatureDetail",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       }
     ]
   },
@@ -4572,7 +4825,6 @@
     "routes": [
       "/:key",
       "/feature/:featureKey",
-      "/idempotency/:key",
       "/ts/:featureKey",
       "/{module_key}"
     ],
@@ -4580,22 +4832,13 @@
       "AIDeepfakeDetectionPlatform",
       "AIFineTuningPlatform",
       "AIIdentifymonetizeunderutilized",
-      "AIRAGPlatform",
-      "software-for-agents"
+      "AIRAGPlatform"
     ],
     "consolidatedFromApps": [
       "ai-ml-platforms-dev-tools/automateinternational",
-      "ai-ml-platforms-dev-tools/rag-platform",
-      "ai-ml-platforms-dev-tools/software-for-agents-merged"
+      "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "software-for-agents",
-        "path": "backend/routes/sandbox-dryrun.js:262",
-        "route": "/idempotency/:key",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
       {
         "kind": "page",
         "sourceProject": "AIDeepfakeDetectionPlatform",
@@ -4807,7 +5050,7 @@
   },
   {
     "name": "Gap Limited Analytics Endpoint Coverage Beyond Plumbing",
-    "canonicalKey": "analytics beyond coverage endpoint gap limited plumbing",
+    "canonicalKey": "analytic beyond coverage endpoint gap limited plumbing",
     "aliases": [],
     "kinds": [
       "page"
@@ -5258,7 +5501,7 @@
   },
   {
     "name": "Gap No Detection Results Database Schema",
-    "canonicalKey": "database detection gap no results schema",
+    "canonicalKey": "database detection gap no result schema",
     "aliases": [],
     "kinds": [
       "page"
@@ -5378,7 +5621,7 @@
   },
   {
     "name": "Gap No Media Processing Pipeline Wired Upload Stubs Only",
-    "canonicalKey": "gap media no only pipeline processing stubs upload wired",
+    "canonicalKey": "gap media no only pipeline processing stub upload wired",
     "aliases": [],
     "kinds": [
       "page"
@@ -5692,7 +5935,7 @@
   },
   {
     "name": "Gap No Recommendsources Crossdocument Discovery",
-    "canonicalKey": "crossdocument discovery gap no recommendsources",
+    "canonicalKey": "crossdocument discovery gap no recommendsource",
     "aliases": [],
     "kinds": [
       "page"
@@ -5828,7 +6071,7 @@
   },
   {
     "name": "Gap Only 2 Endpoints Exposed Under AI Js The Actual Fine Tu",
-    "canonicalKey": "2 actual ai endpoints exposed fine gap js only the tu under",
+    "canonicalKey": "2 actual ai endpoint exposed fine gap js only the tu under",
     "aliases": [],
     "kinds": [
       "api"
@@ -6448,7 +6691,7 @@
       {
         "kind": "api",
         "sourceProject": "AISMSchatbot",
-        "path": "server/routes/ai.js:120",
+        "path": "server/routes/ai.js:122",
         "route": "/application-help",
         "originApp": "ai-ml-platforms-dev-tools/luran-ai"
       },
@@ -6644,25 +6887,20 @@
     ]
   },
   {
-    "name": "Interactions",
-    "canonicalKey": "interaction",
-    "aliases": [
-      "Interaction History"
-    ],
+    "name": "Interaction History",
+    "canonicalKey": "history interaction",
+    "aliases": [],
     "kinds": [
       "navigation",
       "page"
     ],
     "routes": [
-      "/InteractionHistory",
-      "/interactions"
+      "/InteractionHistory"
     ],
     "sourceProjects": [
-      "AIDigitalTwinPlatform",
-      "AIMultiAgentSimulationPlatform"
+      "AIDigitalTwinPlatform"
     ],
     "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/mcp-server",
       "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
@@ -6679,6 +6917,45 @@
         "path": "client/src/pages/InteractionHistory.jsx",
         "route": "/InteractionHistory",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      }
+    ]
+  },
+  {
+    "name": "Interactions",
+    "canonicalKey": "interaction",
+    "aliases": [
+      "Interactions Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/InteractionsPage",
+      "/interactions"
+    ],
+    "sourceProjects": [
+      "AIDigitalTwinPlatform",
+      "AIMultiAgentSimulationPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/mcp-server",
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMultiAgentSimulationPlatform",
+        "path": "frontend/src/components/Sidebar.js:7",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMultiAgentSimulationPlatform",
+        "path": "frontend/src/pages/InteractionsPage.js",
+        "route": "/InteractionsPage",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
       },
       {
         "kind": "page",
@@ -6700,13 +6977,6 @@
         "path": "client/src/pages/Dashboard.jsx:22",
         "route": "/interactions",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIMultiAgentSimulationPlatform",
-        "path": "frontend/src/components/Sidebar.js:7",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
       }
     ]
   },
@@ -6831,6 +7101,32 @@
     ]
   },
   {
+    "name": "Json",
+    "canonicalKey": "json",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/export/:featureKey/json"
+    ],
+    "sourceProjects": [
+      "AIDeepfakeDetectionPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDeepfakeDetectionPlatform",
+        "path": "backend/src/routes/extra.js:436",
+        "route": "/export/:featureKey/json",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      }
+    ]
+  },
+  {
     "name": "Jurisdiction",
     "canonicalKey": "jurisdiction",
     "aliases": [],
@@ -6892,13 +7188,6 @@
       {
         "kind": "page",
         "sourceProject": "company-brain",
-        "path": "frontend/src/App.tsx:66",
-        "route": "/knowledge",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "company-brain",
         "path": "frontend/src/components/Layout.tsx:6",
         "route": "/knowledge",
         "originApp": "ai-ml-platforms-dev-tools/luran-ai"
@@ -6909,6 +7198,27 @@
         "path": "frontend/src/pages/KnowledgePage.tsx",
         "route": "/KnowledgePage",
         "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "mcpServer",
+        "path": "frontend/src/App.js:135",
+        "route": "/knowledge",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "mcpServer",
+        "path": "frontend/src/App.js:44",
+        "route": "/knowledge",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "mcpServer",
+        "path": "frontend/src/pages/KnowledgePage.js",
+        "route": "/KnowledgePage",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
       },
       {
         "kind": "page",
@@ -6951,27 +7261,6 @@
         "path": "frontend/src/pages/Dashboard.jsx:38",
         "route": "/knowledge",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "mcpServer",
-        "path": "frontend/src/App.js:135",
-        "route": "/knowledge",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "mcpServer",
-        "path": "frontend/src/App.js:44",
-        "route": "/knowledge",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "mcpServer",
-        "path": "frontend/src/pages/KnowledgePage.js",
-        "route": "/KnowledgePage",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
       }
     ]
   },
@@ -7088,7 +7377,7 @@
   },
   {
     "name": "Limited Analytics Endpoint Coverage Beyond Plumbing",
-    "canonicalKey": "analytics beyond coverage endpoint limited plumbing",
+    "canonicalKey": "analytic beyond coverage endpoint limited plumbing",
     "aliases": [],
     "kinds": [
       "page"
@@ -7300,375 +7589,6 @@
     ]
   },
   {
-    "name": "Me",
-    "canonicalKey": "me",
-    "aliases": [],
-    "kinds": [
-      "api",
-      "page"
-    ],
-    "routes": [
-      "/api/auth/me",
-      "/me",
-      "/profile/me",
-      "/settings/me",
-      "/users/me"
-    ],
-    "sourceProjects": [
-      "AIAgentMemoryStore",
-      "AIAgentObservabilityPlus",
-      "AIAutomateinternational",
-      "AICodeInterpreter",
-      "AIDeepfakeDetectionPlatform",
-      "AIDevOpsInfrastructure",
-      "AIDigitalTwinPlatform",
-      "AIDynamiclocationaware",
-      "AIEmailTriageResponseAgent",
-      "AIFineTuningPlatform",
-      "AIHardwareIoT",
-      "AIIdentifymonetizeunderutilized",
-      "AILocalFirstAgent",
-      "AIMergededuplicate",
-      "AIModelCostOrchestrator",
-      "AIMonitorrealtimeaudi",
-      "AINetworkascodeplatform",
-      "AIPersonalContextMCP",
-      "AIProductManagementCopilot",
-      "AIProductivityHub",
-      "AIProjectManager",
-      "AIRAGPlatform",
-      "AISMSchatbot",
-      "AISyntheticDataGenerator",
-      "AITestGenerationPlatform",
-      "AIWorkflowCapture",
-      "AIassistant",
-      "AIondistributedcloud",
-      "AiBusinessAutomation",
-      "AiDataAnalyst",
-      "aIDocumentationAssistant",
-      "company-brain",
-      "document_management",
-      "dynamic-software-interfaces",
-      "mcpServer",
-      "merged2",
-      "multi_agents",
-      "pdfgenius"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/agent-observability-plus",
-      "ai-ml-platforms-dev-tools/assistant",
-      "ai-ml-platforms-dev-tools/automateinternational",
-      "ai-ml-platforms-dev-tools/browser-extension-platform",
-      "ai-ml-platforms-dev-tools/code-interpreter",
-      "ai-ml-platforms-dev-tools/dev-ops-infrastructure",
-      "ai-ml-platforms-dev-tools/dynamiclocationaware",
-      "ai-ml-platforms-dev-tools/luran-ai",
-      "ai-ml-platforms-dev-tools/mcp-server",
-      "ai-ml-platforms-dev-tools/meeting-agent",
-      "ai-ml-platforms-dev-tools/pdfgenius-merged",
-      "ai-ml-platforms-dev-tools/product-management-copilot",
-      "ai-ml-platforms-dev-tools/rag-platform",
-      "ai-ml-platforms-dev-tools/software-for-agents-merged",
-      "ai-ml-platforms-dev-tools/synthetic-data-generator"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AICodeInterpreter",
-        "path": "backend/routes/auth.js:20",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIWorkflowCapture",
-        "path": "backend/routes/auth.js:33",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIWorkflowCapture",
-        "path": "backend/routes/permissions.js:14",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "pdfgenius",
-        "path": "src/routes/auth.routes.js:96",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "dynamic-software-interfaces",
-        "path": "backend/routes/auth.js:20",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISMSchatbot",
-        "path": "server/routes/auth.js:27",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "company-brain",
-        "path": "backend/routes/auth.js:23",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDevOpsInfrastructure",
-        "path": "server/routes/auth.js:23",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "aIDocumentationAssistant",
-        "path": "src/pages/api/auth/me.ts",
-        "route": "/api/auth/me",
-        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AINetworkascodeplatform",
-        "path": "backend/routes/auth.js:53",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIProjectManager",
-        "path": "backend/routes/auth.js:45",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITestGenerationPlatform",
-        "path": "backend/routes/auth.js:42",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIProductManagementCopilot",
-        "path": "server/routes/auth.js:68",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIProductivityHub",
-        "path": "backend/routes/auth.js:86",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "document_management",
-        "path": "backend/src/routes/setupRoutes.ts:158",
-        "route": "/api/auth/me",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "document_management",
-        "path": "backend/src/routes/users.ts:40",
-        "route": "/users/me",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIEmailTriageResponseAgent",
-        "path": "backend/src/routes/auth.js:82",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDeepfakeDetectionPlatform",
-        "path": "backend/src/routes/auth.js:82",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDigitalTwinPlatform",
-        "path": "server/routes/auth.js:102",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "backend/src/routes/auth.js:93",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIRAGPlatform",
-        "path": "backend/routers/auth.py:112",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIRAGPlatform",
-        "path": "backend/routers/users.py:41",
-        "route": "/settings/me",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIRAGPlatform",
-        "path": "backend/routers/users.py:57",
-        "route": "/settings/me",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAgentMemoryStore",
-        "path": "backend/routes/auth.js:33",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAgentObservabilityPlus",
-        "path": "backend/routes/auth.js:33",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILocalFirstAgent",
-        "path": "backend/routes/auth.js:33",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIMergededuplicate",
-        "path": "backend/src/routes/auth.js:27",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIMonitorrealtimeaudi",
-        "path": "server/routes/auth.js:31",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISyntheticDataGenerator",
-        "path": "backend/routes/auth.js:40",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiDataAnalyst",
-        "path": "backend/src/routes/auth.js:315",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIassistant",
-        "path": "backend/routes/users.js:11",
-        "route": "/profile/me",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIondistributedcloud",
-        "path": "backend/routes/auth.js:40",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDynamiclocationaware",
-        "path": "server/routes/auth.js:39",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIHardwareIoT",
-        "path": "backend/src/index.js:170",
-        "route": "/api/auth/me",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIModelCostOrchestrator",
-        "path": "server/routes/auth.js:100",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPersonalContextMCP",
-        "path": "backend/routes/auth.js:33",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "mcpServer",
-        "path": "backend/routes/auth.js:22",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multi_agents",
-        "path": "backend/src/routes/auth.js:141",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateinternational",
-        "path": "backend/routes/auth.js:84",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIIdentifymonetizeunderutilized",
-        "path": "backend/routes/auth.js:39",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiBusinessAutomation",
-        "path": "backend/src/routes/auth.js:179",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/AIAgricultureAssistant/backend/routes/auth.js:110",
-        "route": "/me",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      }
-    ]
-  },
-  {
     "name": "Media Auth",
     "canonicalKey": "auth media",
     "aliases": [],
@@ -7717,119 +7637,6 @@
         "path": "frontend/src/App.jsx:104",
         "route": "/cf/media-provenance-tracking",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      }
-    ]
-  },
-  {
-    "name": "Memories",
-    "canonicalKey": "memory",
-    "aliases": [
-      "Memory System",
-      "Memory Views"
-    ],
-    "kinds": [
-      "api",
-      "model",
-      "navigation",
-      "page"
-    ],
-    "routes": [
-      "/MemorySystem",
-      "/memories",
-      "/subjects/:name/memories"
-    ],
-    "sourceProjects": [
-      "AIAgentMemoryStore",
-      "AIDigitalTwinPlatform"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/agent-observability-plus",
-      "ai-ml-platforms-dev-tools/rag-platform"
-    ],
-    "evidence": [
-      {
-        "kind": "model",
-        "sourceProject": "AIDigitalTwinPlatform",
-        "path": "server/models/Memory.js",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDigitalTwinPlatform",
-        "path": "client/src/App.jsx:84",
-        "route": "/memories",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDigitalTwinPlatform",
-        "path": "client/src/components/Sidebar.jsx:19",
-        "route": "/memories",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDigitalTwinPlatform",
-        "path": "client/src/pages/Dashboard.jsx:19",
-        "route": "/memories",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIDigitalTwinPlatform",
-        "path": "client/src/components/Sidebar.jsx:19",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDigitalTwinPlatform",
-        "path": "client/src/pages/MemorySystem.jsx",
-        "route": "/MemorySystem",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAgentMemoryStore",
-        "path": "backend/routes/memoryExtras.js:11",
-        "route": "/memories",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAgentMemoryStore",
-        "path": "backend/routes/memoryExtras.js:5",
-        "route": "/subjects/:name/memories",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIAgentMemoryStore",
-        "path": "frontend/src/components/Sidebar.js:6",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAgentMemoryStore",
-        "path": "frontend/src/App.js:73",
-        "route": "/memories",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAgentMemoryStore",
-        "path": "frontend/src/pages/Dashboard.js:6",
-        "route": "/memories",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIAgentMemoryStore",
-        "path": "frontend/src/components/Sidebar.js:56",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
       }
     ]
   },
@@ -7906,6 +7713,13 @@
       },
       {
         "kind": "api",
+        "sourceProject": "multi_agents",
+        "path": "backend/server.js:92",
+        "route": "/api/anthropic/messages",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIDigitalTwinPlatform",
         "path": "server/routes/conversations.js:139",
         "route": "/:id/messages",
@@ -7938,13 +7752,6 @@
         "path": "backend/routers/chat.py:199",
         "route": "/sessions/{session_id}/messages",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multi_agents",
-        "path": "backend/server.js:68",
-        "route": "/api/anthropic/messages",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
       },
       {
         "kind": "api",
@@ -8264,7 +8071,7 @@
   },
   {
     "name": "No Detection Results Database Schema",
-    "canonicalKey": "database detection no results schema",
+    "canonicalKey": "database detection no result schema",
     "aliases": [],
     "kinds": [
       "page"
@@ -8290,7 +8097,7 @@
   },
   {
     "name": "No Media Processing Pipeline Wired Upload Stubs Only",
-    "canonicalKey": "media no only pipeline processing stubs upload wired",
+    "canonicalKey": "media no only pipeline processing stub upload wired",
     "aliases": [],
     "kinds": [
       "page"
@@ -8447,50 +8254,6 @@
     ]
   },
   {
-    "name": "Notifications Page",
-    "canonicalKey": "notifications",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/NotificationsPage"
-    ],
-    "sourceProjects": [
-      "AICodeInterpreter",
-      "AIFineTuningPlatform",
-      "merged2"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/automateinternational",
-      "ai-ml-platforms-dev-tools/code-interpreter",
-      "ai-ml-platforms-dev-tools/rag-platform"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICodeInterpreter",
-        "path": "frontend/src/pages/NotificationsPage.js",
-        "route": "/NotificationsPage",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "frontend/src/pages/NotificationsPage.jsx",
-        "route": "/NotificationsPage",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/AIAgricultureAssistant/frontend/src/pages/NotificationsPage.jsx",
-        "route": "/NotificationsPage",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      }
-    ]
-  },
-  {
     "name": "Personalities",
     "canonicalKey": "personality",
     "aliases": [],
@@ -8607,6 +8370,20 @@
     ],
     "evidence": [
       {
+        "kind": "api",
+        "sourceProject": "AILocalFirstAgent",
+        "path": "backend/routes/crdt.js:140",
+        "route": "/documents/:doc_key/ops",
+        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILocalFirstAgent",
+        "path": "backend/routes/crdt.js:172",
+        "route": "/documents/:doc_key/ops",
+        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
+      },
+      {
         "kind": "navigation",
         "sourceProject": "AIRAGPlatform",
         "path": "frontend/src/components/Sidebar.jsx:23",
@@ -8633,20 +8410,6 @@
         "path": "frontend/src/pages/PlatformOps.jsx",
         "route": "/PlatformOps",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILocalFirstAgent",
-        "path": "backend/routes/crdt.js:140",
-        "route": "/documents/:doc_key/ops",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILocalFirstAgent",
-        "path": "backend/routes/crdt.js:172",
-        "route": "/documents/:doc_key/ops",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
       }
     ]
   },
@@ -9225,6 +8988,20 @@
     ],
     "evidence": [
       {
+        "kind": "api",
+        "sourceProject": "AIassistant",
+        "path": "backend/routes/customViews.js:334",
+        "route": "/prompt-templates",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIassistant",
+        "path": "backend/routes/customViews.js:338",
+        "route": "/prompt-templates",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
         "path": "frontend/src/App.jsx:95",
@@ -9265,20 +9042,6 @@
         "path": "frontend/src/pages/PromptTemplates.jsx",
         "route": "/PromptTemplates",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIassistant",
-        "path": "backend/routes/customViews.js:334",
-        "route": "/prompt-templates",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIassistant",
-        "path": "backend/routes/customViews.js:338",
-        "route": "/prompt-templates",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
       },
       {
         "kind": "page",
@@ -9839,7 +9602,7 @@
       {
         "kind": "api",
         "sourceProject": "document_management",
-        "path": "backend/src/routes/setupRoutes.ts:181",
+        "path": "backend/src/routes/setupRoutes.ts:126",
         "route": "/api/search/reindex",
         "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
       },
@@ -9926,32 +9689,6 @@
         "sourceProject": "AIDeepfakeDetectionPlatform",
         "path": "frontend/src/pages/ReportBuilder.jsx",
         "route": "/ReportBuilder",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      }
-    ]
-  },
-  {
-    "name": "Reports Page",
-    "canonicalKey": "reports",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/ReportsPage"
-    ],
-    "sourceProjects": [
-      "AIFineTuningPlatform"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/rag-platform"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "frontend/src/pages/ReportsPage.jsx",
-        "route": "/ReportsPage",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       }
     ]
@@ -10077,17 +9814,17 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIRAGPlatform",
-        "path": "backend/routers/custom_views.py:251",
-        "route": "/retrieval-quality",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIAgentMemoryStore",
         "path": "backend/routes/customViews.js:103",
         "route": "/retrieval-quality",
         "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRAGPlatform",
+        "path": "backend/routers/custom_views.py:251",
+        "route": "/retrieval-quality",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       }
     ]
   },
@@ -10112,20 +9849,6 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIRAGPlatform",
-        "path": "backend/routers/custom_views.py:577",
-        "route": "/retrieval-rules",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIRAGPlatform",
-        "path": "backend/routers/custom_views.py:582",
-        "route": "/retrieval-rules",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIPersonalContextMCP",
         "path": "backend/routes/customViews.js:251",
         "route": "/retrieval-rules",
@@ -10137,6 +9860,20 @@
         "path": "backend/routes/customViews.js:280",
         "route": "/retrieval-rules",
         "originApp": "ai-ml-platforms-dev-tools/mcp-server"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRAGPlatform",
+        "path": "backend/routers/custom_views.py:577",
+        "route": "/retrieval-rules",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRAGPlatform",
+        "path": "backend/routers/custom_views.py:582",
+        "route": "/retrieval-rules",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       }
     ]
   },
@@ -10188,20 +9925,6 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIRAGPlatform",
-        "path": "backend/routers/custom_views.py:587",
-        "route": "/retrieval-rules/{rule_id}",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIRAGPlatform",
-        "path": "backend/routers/custom_views.py:592",
-        "route": "/retrieval-rules/{rule_id}",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIobservability",
         "path": "backend/app/api/v1/alerts.py:45",
         "route": "/alerts/rules/{rule_id}",
@@ -10213,6 +9936,20 @@
         "path": "backend/app/api/v1/alerts.py:68",
         "route": "/alerts/rules/{rule_id}",
         "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRAGPlatform",
+        "path": "backend/routers/custom_views.py:587",
+        "route": "/retrieval-rules/{rule_id}",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRAGPlatform",
+        "path": "backend/routers/custom_views.py:592",
+        "route": "/retrieval-rules/{rule_id}",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       }
     ]
   },
@@ -10287,7 +10024,7 @@
   },
   {
     "name": "Score Comms Effectiveness",
-    "canonicalKey": "comms effectiveness score",
+    "canonicalKey": "comm effectiveness score",
     "aliases": [],
     "kinds": [
       "api"
@@ -10718,7 +10455,6 @@
       "/articles/search",
       "/docs/search",
       "/search",
-      "/utility/search",
       "search"
     ],
     "sourceProjects": [
@@ -10733,14 +10469,11 @@
       "aIDocumentationAssistant",
       "ai-operating-system-for-companies",
       "document_management",
-      "dynamic-software-interfaces",
-      "merged2",
       "saas-challengers",
       "software-for-agents"
     ],
     "consolidatedFromApps": [
       "ai-ml-platforms-dev-tools/assistant",
-      "ai-ml-platforms-dev-tools/automateinternational",
       "ai-ml-platforms-dev-tools/code-interpreter",
       "ai-ml-platforms-dev-tools/dev-ops-infrastructure",
       "ai-ml-platforms-dev-tools/luran-ai",
@@ -10755,7 +10488,7 @@
       {
         "kind": "page",
         "sourceProject": "ai-operating-system-for-companies",
-        "path": "frontend/src/App.tsx:79",
+        "path": "frontend/src/App.tsx:81",
         "route": "/search",
         "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
       },
@@ -10767,66 +10500,17 @@
         "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
       },
       {
-        "kind": "page",
-        "sourceProject": "AIAppointmentSchedulerwithNLP",
-        "path": "frontend/src/App.jsx:81",
-        "route": "/search",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAppointmentSchedulerwithNLP",
-        "path": "frontend/src/components/Layout.jsx:7",
-        "route": "/search",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAppointmentSchedulerwithNLP",
-        "path": "frontend/src/pages/Search.jsx",
-        "route": "/Search",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "dynamic-software-interfaces",
-        "path": "backend/routes/utility.js:44",
-        "route": "/search",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "software-for-agents",
-        "path": "backend/routes/utility.js:51",
-        "route": "/search",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "saas-challengers",
-        "path": "frontend/src/App.tsx:68",
-        "route": "search",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "saas-challengers",
-        "path": "frontend/src/pages/SearchPage.tsx",
-        "route": "/SearchPage",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
         "kind": "api",
         "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "backend/src/routes/index.js:43",
-        "route": "/articles/search",
+        "path": "backend/src/routes/index.js:107",
+        "route": "/search",
         "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
       },
       {
         "kind": "api",
         "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "backend/src/routes/index.js:98",
-        "route": "/search",
+        "path": "backend/src/routes/index.js:52",
+        "route": "/articles/search",
         "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
       },
       {
@@ -10865,18 +10549,11 @@
         "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
       },
       {
-        "kind": "api",
-        "sourceProject": "document_management",
-        "path": "backend/src/routes/documents.ts:662",
-        "route": "/search",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
         "kind": "page",
-        "sourceProject": "document_management",
-        "path": "frontend/src/app/search/page.tsx",
-        "route": "/search",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+        "sourceProject": "saas-challengers",
+        "path": "frontend/src/pages/SearchPage.tsx",
+        "route": "/SearchPage",
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
       },
       {
         "kind": "api",
@@ -10933,6 +10610,55 @@
         "path": "backend/routes/cuaFeat_sessionRecording.js:76",
         "route": "/search",
         "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAppointmentSchedulerwithNLP",
+        "path": "frontend/src/App.jsx:81",
+        "route": "/search",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAppointmentSchedulerwithNLP",
+        "path": "frontend/src/components/Layout.jsx:7",
+        "route": "/search",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAppointmentSchedulerwithNLP",
+        "path": "frontend/src/pages/Search.jsx",
+        "route": "/Search",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "document_management",
+        "path": "backend/src/routes/documents.ts:557",
+        "route": "/search",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "document_management",
+        "path": "frontend/src/app/search/page.tsx",
+        "route": "/search",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "software-for-agents",
+        "path": "backend/routes/utility.js:51",
+        "route": "/search",
+        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIassistant",
+        "path": "backend/routes/studies.js:173",
+        "route": "/search",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
       },
       {
         "kind": "api",
@@ -11171,27 +10897,6 @@
         "path": "backend/src/routes/whFeat_transformDbt.js:64",
         "route": "/search",
         "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIassistant",
-        "path": "backend/routes/studies.js:173",
-        "route": "/search",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/AIAgricultureAssistant/frontend/src/App.js:94",
-        "route": "/search",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/ai-low-pesticide-agriculture/frontend/src/App.tsx:75",
-        "route": "/utility/search",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
       }
     ]
   },
@@ -11258,6 +10963,13 @@
     "evidence": [
       {
         "kind": "api",
+        "sourceProject": "AIEmailTriageResponseAgent",
+        "path": "backend/src/routes/emails.js:315",
+        "route": "/:id/sentiment",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIAppointmentSchedulerwithNLP",
         "path": "backend/src/routes/aiExtras.js:36",
         "route": "/sentiment",
@@ -11269,13 +10981,6 @@
         "path": "backend/src/routes/aiExtras.js:37",
         "route": "/sentiment",
         "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIEmailTriageResponseAgent",
-        "path": "backend/src/routes/emails.js:315",
-        "route": "/:id/sentiment",
-        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
       },
       {
         "kind": "model",
@@ -11310,13 +11015,16 @@
   {
     "name": "Settings",
     "canonicalKey": "setting",
-    "aliases": [],
+    "aliases": [
+      "Settings Page"
+    ],
     "kinds": [
       "navigation",
       "page"
     ],
     "routes": [
       "/Settings",
+      "/SettingsPage",
       "/api/settings",
       "/dashboard/settings",
       "/settings",
@@ -11338,7 +11046,6 @@
       "ai_business_business_automation",
       "luranAI",
       "mcpServer",
-      "merged2",
       "noCodeAIAgency"
     ],
     "consolidatedFromApps": [
@@ -11400,55 +11107,6 @@
       },
       {
         "kind": "page",
-        "sourceProject": "AIAppointmentSchedulerwithNLP",
-        "path": "frontend/src/App.jsx:74",
-        "route": "/settings",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAppointmentSchedulerwithNLP",
-        "path": "frontend/src/components/Layout.jsx:14",
-        "route": "/settings",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAppointmentSchedulerwithNLP",
-        "path": "frontend/src/pages/Dashboard.jsx:14",
-        "route": "/settings",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAppointmentSchedulerwithNLP",
-        "path": "frontend/src/pages/Settings.jsx",
-        "route": "/Settings",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "noCodeAIAgency",
-        "path": "src/app/dashboard/settings/page.tsx",
-        "route": "/dashboard/settings",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "luranAI",
-        "path": "src/components/layout/Sidebar.tsx:196",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "luranAI",
-        "path": "src/app/(dashboard)/settings/page.tsx",
-        "route": "/settings",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
-        "kind": "page",
         "sourceProject": "aIDocumentationAssistant",
         "path": "src/pages/api/settings/index.ts",
         "route": "/api/settings",
@@ -11463,38 +11121,17 @@
       },
       {
         "kind": "navigation",
-        "sourceProject": "AIProductivityHub",
-        "path": "frontend/src/components/Sidebar.js:59",
+        "sourceProject": "luranAI",
+        "path": "src/components/layout/Sidebar.tsx:196",
         "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
       },
       {
         "kind": "page",
-        "sourceProject": "AIProductivityHub",
-        "path": "frontend/src/App.js:128",
+        "sourceProject": "luranAI",
+        "path": "src/app/(dashboard)/settings/page.tsx",
         "route": "/settings",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIProductivityHub",
-        "path": "frontend/src/components/Sidebar.js:59",
-        "route": "/settings",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIProductivityHub",
-        "path": "frontend/src/pages/Dashboard.js:70",
-        "route": "/settings",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIProductivityHub",
-        "path": "frontend/src/pages/Settings.js",
-        "route": "/Settings",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
       },
       {
         "kind": "page",
@@ -11530,6 +11167,153 @@
         "path": "frontend/src/pages/Settings.jsx",
         "route": "/Settings",
         "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAppointmentSchedulerwithNLP",
+        "path": "frontend/src/App.jsx:74",
+        "route": "/settings",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAppointmentSchedulerwithNLP",
+        "path": "frontend/src/components/Layout.jsx:14",
+        "route": "/settings",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAppointmentSchedulerwithNLP",
+        "path": "frontend/src/pages/Dashboard.jsx:14",
+        "route": "/settings",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAppointmentSchedulerwithNLP",
+        "path": "frontend/src/pages/Settings.jsx",
+        "route": "/Settings",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "noCodeAIAgency",
+        "path": "src/app/dashboard/settings/page.tsx",
+        "route": "/dashboard/settings",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIProductivityHub",
+        "path": "frontend/src/components/Sidebar.js:46",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIProductivityHub",
+        "path": "frontend/src/App.js:119",
+        "route": "/settings",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIProductivityHub",
+        "path": "frontend/src/components/Sidebar.js:46",
+        "route": "/settings",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIProductivityHub",
+        "path": "frontend/src/pages/Dashboard.js:70",
+        "route": "/settings",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIProductivityHub",
+        "path": "frontend/src/pages/Settings.js",
+        "route": "/Settings",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIobservability",
+        "path": "dashboard/src/components/Sidebar.tsx:22",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIobservability",
+        "path": "dashboard/src/App.tsx:45",
+        "route": "settings",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIobservability",
+        "path": "dashboard/src/pages/Settings.tsx",
+        "route": "/Settings",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/components/Sidebar.jsx:15",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/App.jsx:82",
+        "route": "/settings",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHardwareIoT",
+        "path": "frontend/src/pages/Settings.jsx",
+        "route": "/Settings",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/App.js:200",
+        "route": "/settings",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIQuantumComputingAssistant",
+        "path": "client/src/pages/SettingsPage.js",
+        "route": "/SettingsPage",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "mcpServer",
+        "path": "frontend/src/App.js:148",
+        "route": "/settings",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "mcpServer",
+        "path": "frontend/src/App.js:57",
+        "route": "/settings",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "mcpServer",
+        "path": "frontend/src/pages/SettingsPage.js",
+        "route": "/SettingsPage",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
       },
       {
         "kind": "navigation",
@@ -11631,69 +11415,6 @@
       },
       {
         "kind": "navigation",
-        "sourceProject": "AIobservability",
-        "path": "dashboard/src/components/Sidebar.tsx:22",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIobservability",
-        "path": "dashboard/src/App.tsx:45",
-        "route": "settings",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIobservability",
-        "path": "dashboard/src/pages/Settings.tsx",
-        "route": "/Settings",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIHardwareIoT",
-        "path": "frontend/src/components/Sidebar.jsx:15",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIHardwareIoT",
-        "path": "frontend/src/App.jsx:82",
-        "route": "/settings",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIHardwareIoT",
-        "path": "frontend/src/pages/Settings.jsx",
-        "route": "/Settings",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIQuantumComputingAssistant",
-        "path": "client/src/App.js:200",
-        "route": "/settings",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "mcpServer",
-        "path": "frontend/src/App.js:148",
-        "route": "/settings",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "mcpServer",
-        "path": "frontend/src/App.js:57",
-        "route": "/settings",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "navigation",
         "sourceProject": "ai_business_business_automation",
         "path": "frontend/src/components/layout/Sidebar.tsx:151",
         "route": "",
@@ -11703,20 +11424,6 @@
         "kind": "page",
         "sourceProject": "ai_business_business_automation",
         "path": "frontend/src/app/(dashboard)/settings/page.tsx",
-        "route": "/settings",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/AIAgricultureAssistant/frontend/src/App.js:92",
-        "route": "/settings",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/AIAgricultureAssistant/frontend/src/pages/Dashboard.jsx:75",
         "route": "/settings",
         "originApp": "ai-ml-platforms-dev-tools/automateinternational"
       }
@@ -11888,7 +11595,7 @@
   },
   {
     "name": "Suggest Appeals Policy Change",
-    "canonicalKey": "appeals change policy suggest",
+    "canonicalKey": "appeal change policy suggest",
     "aliases": [],
     "kinds": [
       "api"
@@ -12235,7 +11942,7 @@
   },
   {
     "name": "Summarize Appeals Trends",
-    "canonicalKey": "appeals summarize trend",
+    "canonicalKey": "appeal summarize trend",
     "aliases": [],
     "kinds": [
       "api"
@@ -12261,7 +11968,7 @@
   },
   {
     "name": "Summarize Comms History",
-    "canonicalKey": "comms history summarize",
+    "canonicalKey": "comm history summarize",
     "aliases": [],
     "kinds": [
       "api"
@@ -12606,7 +12313,6 @@
     ],
     "routes": [
       "/:documentId/:fromVersion/:toVersion/summary",
-      "/_stats/summary",
       "/analytics/summary",
       "/api/debate/summary",
       "/integrations/apple-health/summary",
@@ -12638,7 +12344,6 @@
       "AiDataAnalyst",
       "ai_business_business_automation",
       "document_management",
-      "dynamic-software-interfaces",
       "multi_agents"
     ],
     "consolidatedFromApps": [
@@ -12653,45 +12358,9 @@
       "ai-ml-platforms-dev-tools/pdfgenius-merged",
       "ai-ml-platforms-dev-tools/product-management-copilot",
       "ai-ml-platforms-dev-tools/rag-platform",
-      "ai-ml-platforms-dev-tools/software-for-agents-merged",
       "ai-ml-platforms-dev-tools/synthetic-data-generator"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIChatbotBuilder",
-        "path": "backend/routes/analytics.js:14",
-        "route": "/summary",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChatbotBuilder",
-        "path": "backend/routes/reports.js:29",
-        "route": "/summary",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIWorkflowCapture",
-        "path": "backend/routes/auditLog.js:36",
-        "route": "/summary",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAppointmentSchedulerwithNLP",
-        "path": "backend/src/routes/ai.js:51",
-        "route": "/summary",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "dynamic-software-interfaces",
-        "path": "backend/routes/design_tokens.js:115",
-        "route": "/_stats/summary",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
       {
         "kind": "page",
         "sourceProject": "AIBrowserExtensionPlatform",
@@ -12715,38 +12384,24 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIProductivityHub",
-        "path": "backend/routes/backlog.js:179",
-        "route": "/integrations/google-fit/summary",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+        "sourceProject": "AIChatbotBuilder",
+        "path": "backend/routes/analytics.js:14",
+        "route": "/summary",
+        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
       },
       {
         "kind": "api",
-        "sourceProject": "AIProductivityHub",
-        "path": "backend/routes/backlog.js:184",
-        "route": "/integrations/apple-health/summary",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+        "sourceProject": "AIChatbotBuilder",
+        "path": "backend/routes/reports.js:29",
+        "route": "/summary",
+        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
       },
       {
         "kind": "api",
-        "sourceProject": "AIProductivityHub",
-        "path": "backend/routes/focusTimer.js:218",
-        "route": "/stats/summary",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIProductivityHub",
-        "path": "backend/routes/habits.js:129",
-        "route": "/streaks/summary",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "document_management",
-        "path": "backend/src/routes/redlineDiff.ts:87",
-        "route": "/:documentId/:fromVersion/:toVersion/summary",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+        "sourceProject": "AIWorkflowCapture",
+        "path": "backend/routes/auditLog.js:36",
+        "route": "/summary",
+        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
       },
       {
         "kind": "api",
@@ -12817,6 +12472,90 @@
         "path": "backend/src/routes/spamAnalysis.js:211",
         "route": "/stats/summary",
         "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAppointmentSchedulerwithNLP",
+        "path": "backend/src/routes/ai.js:51",
+        "route": "/summary",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIProductivityHub",
+        "path": "backend/routes/backlog.js:266",
+        "route": "/integrations/google-fit/summary",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIProductivityHub",
+        "path": "backend/routes/backlog.js:280",
+        "route": "/integrations/apple-health/summary",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIProductivityHub",
+        "path": "backend/routes/backlog.js:307",
+        "route": "/integrations/apple-health/summary",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIProductivityHub",
+        "path": "backend/routes/focusTimer.js:218",
+        "route": "/stats/summary",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIProductivityHub",
+        "path": "backend/routes/habits.js:129",
+        "route": "/streaks/summary",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "document_management",
+        "path": "backend/src/routes/redlineDiff.ts:88",
+        "route": "/:documentId/:fromVersion/:toVersion/summary",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAgentMemoryStore",
+        "path": "backend/routes/pass7.js:48",
+        "route": "/memory-reads/summary",
+        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIondistributedcloud",
+        "path": "backend/routes/aiBacklog.js:221",
+        "route": "/self-service/summary",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/analytics.js:9",
+        "route": "/summary",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIModelCostOrchestrator",
+        "path": "server/routes/cost-analytics.js:30",
+        "route": "/summary",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "multi_agents",
+        "path": "backend/server.js:260",
+        "route": "/api/debate/summary",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
       },
       {
         "kind": "api",
@@ -12925,13 +12664,6 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIAgentMemoryStore",
-        "path": "backend/routes/pass7.js:48",
-        "route": "/memory-reads/summary",
-        "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AiDataAnalyst",
         "path": "backend/src/routes/ssFeat_aiFillDown.js:88",
         "route": "/stats/summary",
@@ -13034,34 +12766,6 @@
         "path": "backend/src/routes/whFeat_transformDbt.js:88",
         "route": "/stats/summary",
         "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIondistributedcloud",
-        "path": "backend/routes/aiBacklog.js:221",
-        "route": "/self-service/summary",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDynamiclocationaware",
-        "path": "server/routes/analytics.js:9",
-        "route": "/summary",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIModelCostOrchestrator",
-        "path": "server/routes/cost-analytics.js:30",
-        "route": "/summary",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multi_agents",
-        "path": "backend/server.js:236",
-        "route": "/api/debate/summary",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
       },
       {
         "kind": "api",
@@ -13240,29 +12944,22 @@
       },
       {
         "kind": "api",
-        "sourceProject": "software-for-agents",
-        "path": "backend/routes/discovery.js:119",
-        "route": "/tags",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "backend/src/routes/index.js:170",
+        "path": "backend/src/routes/index.js:179",
         "route": "/ai/tags",
         "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
       },
       {
         "kind": "api",
         "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "backend/src/routes/index.js:62",
+        "path": "backend/src/routes/index.js:71",
         "route": "/tags",
         "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
       },
       {
         "kind": "api",
         "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "backend/src/routes/index.js:64",
+        "path": "backend/src/routes/index.js:73",
         "route": "/tags",
         "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
       },
@@ -13300,6 +12997,13 @@
         "path": "src/pages/api/docs/tags/index.ts",
         "route": "/api/docs/tags",
         "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "software-for-agents",
+        "path": "backend/routes/discovery.js:119",
+        "route": "/tags",
+        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
       },
       {
         "kind": "api",
@@ -13842,17 +13546,17 @@
     "evidence": [
       {
         "kind": "api",
+        "sourceProject": "multi_agents",
+        "path": "backend/server.js:234",
+        "route": "/api/debate/turn",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIDigitalTwinPlatform",
         "path": "server/routes/aiNew.js:427",
         "route": "/twins/group-session/:sessionId/turn",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multi_agents",
-        "path": "backend/server.js:210",
-        "route": "/api/debate/turn",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
       }
     ]
   },
@@ -14057,6 +13761,13 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AIassistant",
+        "path": "backend/routes/notifications.js:7",
+        "route": "/unread-count",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIDeepfakeDetectionPlatform",
         "path": "backend/src/routes/extra.js:109",
         "route": "/notifications/unread-count",
@@ -14068,13 +13779,6 @@
         "path": "backend/src/routes/notifications.js:52",
         "route": "/unread-count",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIassistant",
-        "path": "backend/routes/notifications.js:7",
-        "route": "/unread-count",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
       }
     ]
   },
@@ -14100,32 +13804,6 @@
         "sourceProject": "AIDeepfakeDetectionPlatform",
         "path": "backend/src/routes/customViews.js:303",
         "route": "/upload-video",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      }
-    ]
-  },
-  {
-    "name": "Usage",
-    "canonicalKey": "usage",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/usage"
-    ],
-    "sourceProjects": [
-      "AIRAGPlatform"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/rag-platform"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIRAGPlatform",
-        "path": "backend/routers/analytics.py:16",
-        "route": "/usage",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       }
     ]
@@ -14199,7 +13877,7 @@
       {
         "kind": "api",
         "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "backend/src/routes/index.js:84",
+        "path": "backend/src/routes/index.js:93",
         "route": "/teams/:id/members/:userId",
         "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
       },
@@ -14242,7 +13920,7 @@
   },
   {
     "name": "Validate Comms Against Policy",
-    "canonicalKey": "against comms policy validate",
+    "canonicalKey": "against comm policy validate",
     "aliases": [],
     "kinds": [
       "api"
@@ -14501,6 +14179,32 @@
     ]
   },
   {
+    "name": "Work Items",
+    "canonicalKey": "item work",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/work-items"
+    ],
+    "sourceProjects": [
+      "AIRAGPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIRAGPlatform",
+        "path": "backend/routers/governance.py:32",
+        "route": "/work-items",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      }
+    ]
+  },
+  {
     "name": "Workspace Id",
     "canonicalKey": "id",
     "aliases": [],
@@ -14545,6 +14249,7 @@
     "canonicalKey": "workspace",
     "aliases": [],
     "kinds": [
+      "api",
       "navigation",
       "page"
     ],
@@ -14554,12 +14259,21 @@
       "workspaces"
     ],
     "sourceProjects": [
+      "AIDynamiclocationaware",
       "AIRAGPlatform"
     ],
     "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/dynamiclocationaware",
       "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDynamiclocationaware",
+        "path": "server/routes/governedDelivery.js:5",
+        "route": "/workspaces",
+        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
       {
         "kind": "navigation",
         "sourceProject": "AIRAGPlatform",
