@@ -3,7 +3,7 @@
 Industry: **AI/ML Platforms & Dev Tools**  
 Specialization: **Rag Platform**
 
-This standalone application consolidates source-backed capabilities into 359 optimized features, including 8 visible data-backed or AI-enabled views. Its public demo SQLite database contains 335 sanitized source rows across 19 imported tables and 120 operational workflow records.
+This standalone application consolidates source-backed capabilities into 372 optimized features, including 23 visible data-backed or AI-enabled views. Its public demo SQLite database contains 335 sanitized source rows across 19 imported tables and 120 operational workflow records.
 
 ## Run locally
 

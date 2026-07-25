@@ -576,236 +576,24 @@
   {
     "name": "AI Tools",
     "canonicalKey": "ai",
-    "aliases": [
-      "AI",
-      "AI Center",
-      "AI Center Page",
-      "AI Features",
-      "AI Features New",
-      "AI New Tools",
-      "AI New Tools Page",
-      "AI Page",
-      "AI Tools Page"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "navigation",
       "page"
     ],
     "routes": [
-      "/AICenterPage",
-      "/AIFeatures",
-      "/AIFeaturesNew",
-      "/AINewToolsPage",
-      "/AIPage",
       "/AITools",
-      "/AIToolsPage",
-      "/AiTools",
-      "/ai",
-      "/ai-center",
-      "/ai-features",
-      "/ai-new-tools",
-      "/ai-tools",
-      "/api/v1/ai",
-      "/dashboard/ai",
-      "/dashboard/ai-tools",
-      "ai-features",
-      "ai-tools"
+      "/ai-tools"
     ],
     "sourceProjects": [
-      "AIAppointmentSchedulerwithNLP",
-      "AIAutomateinternational",
       "AIDeepfakeDetectionPlatform",
-      "AIDevOpsInfrastructure",
-      "AIDigitalTwinPlatform",
-      "AIKnowledgeBaseWikiGenerator",
-      "AIMergededuplicate",
-      "AIModelCostOrchestrator",
-      "AIMonitorrealtimeaudi",
-      "AIMultiAgentSimulationPlatform",
-      "AIQuantumComputingAssistant",
-      "AIobservability",
-      "AIpoweredinteractive",
-      "AiDataAnalyst",
-      "ai-operating-system-for-companies",
-      "makepdf",
-      "noCodeAIAgency",
-      "saas-challengers"
+      "AIDigitalTwinPlatform"
     ],
     "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/assistant",
-      "ai-ml-platforms-dev-tools/automateinternational",
-      "ai-ml-platforms-dev-tools/code-interpreter",
-      "ai-ml-platforms-dev-tools/dev-ops-infrastructure",
-      "ai-ml-platforms-dev-tools/dynamiclocationaware",
-      "ai-ml-platforms-dev-tools/luran-ai",
-      "ai-ml-platforms-dev-tools/mcp-server",
-      "ai-ml-platforms-dev-tools/pdfgenius-merged",
-      "ai-ml-platforms-dev-tools/rag-platform",
-      "ai-ml-platforms-dev-tools/software-for-agents-merged",
-      "ai-ml-platforms-dev-tools/synthetic-data-generator"
+      "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "ai-operating-system-for-companies",
-        "path": "frontend/src/App.tsx:71",
-        "route": "/ai-center",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "frontend/src/App.js:96",
-        "route": "ai-features",
-        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "frontend/src/components/Layout.js:29",
-        "route": "/ai-features",
-        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "frontend/src/pages/AIFeatures.js",
-        "route": "/AIFeatures",
-        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDevOpsInfrastructure",
-        "path": "client/src/App.js:214",
-        "route": "/ai-new-tools",
-        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDevOpsInfrastructure",
-        "path": "client/src/pages/AINewToolsPage.js",
-        "route": "/AINewToolsPage",
-        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "frontend/src/App.js:95",
-        "route": "ai-tools",
-        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "frontend/src/components/Layout.js:30",
-        "route": "/ai-tools",
-        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIKnowledgeBaseWikiGenerator",
-        "path": "frontend/src/pages/AITools.js",
-        "route": "/AITools",
-        "originApp": "ai-ml-platforms-dev-tools/dev-ops-infrastructure"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "saas-challengers",
-        "path": "frontend/src/pages/AICenterPage.tsx",
-        "route": "/AICenterPage",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "noCodeAIAgency",
-        "path": "src/app/dashboard/ai/page.tsx",
-        "route": "/dashboard/ai",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAppointmentSchedulerwithNLP",
-        "path": "frontend/src/pages/AIFeatures.jsx",
-        "route": "/AIFeatures",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "noCodeAIAgency",
-        "path": "src/components/layout/Sidebar.tsx:65",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "makepdf",
-        "path": "makepdf/web/routes/ai_results.py:65",
-        "route": "/ai-tools",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIobservability",
-        "path": "backend/app/api/v1/ai.py",
-        "route": "/api/v1/ai",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIpoweredinteractive",
-        "path": "frontend/src/App.js:103",
-        "route": "/ai",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIpoweredinteractive",
-        "path": "frontend/src/components/Layout.js:7",
-        "route": "/ai",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIpoweredinteractive",
-        "path": "frontend/src/pages/Dashboard.js:22",
-        "route": "/ai",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIModelCostOrchestrator",
-        "path": "client/src/App.jsx:56",
-        "route": "/dashboard/ai-tools",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIModelCostOrchestrator",
-        "path": "client/src/components/AppLayout.jsx:42",
-        "route": "/dashboard/ai-tools",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIQuantumComputingAssistant",
-        "path": "client/src/components/Sidebar.js:73",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIModelCostOrchestrator",
-        "path": "client/src/pages/AIToolsPage.jsx",
-        "route": "/AIToolsPage",
-        "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMultiAgentSimulationPlatform",
-        "path": "frontend/src/pages/AIPage.js",
-        "route": "/AIPage",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
       {
         "kind": "page",
         "sourceProject": "AIDeepfakeDetectionPlatform",
@@ -818,6 +606,13 @@
         "sourceProject": "AIDeepfakeDetectionPlatform",
         "path": "frontend/src/pages/AITools.jsx",
         "route": "/AITools",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDigitalTwinPlatform",
+        "path": "client/src/pages/AITools.jsx:1",
+        "route": "/ai-tools",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       },
       {
@@ -847,83 +642,6 @@
         "path": "client/src/pages/AITools.jsx",
         "route": "/AITools",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiDataAnalyst",
-        "path": "frontend/src/App.jsx:131",
-        "route": "ai-features",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiDataAnalyst",
-        "path": "frontend/src/components/Layout.jsx:57",
-        "route": "/ai-features",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiDataAnalyst",
-        "path": "frontend/src/pages/AIFeaturesNew.jsx",
-        "route": "/AIFeaturesNew",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMergededuplicate",
-        "path": "frontend/src/App.jsx:63",
-        "route": "/ai-tools",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMergededuplicate",
-        "path": "frontend/src/components/Layout.jsx:19",
-        "route": "/ai-tools",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMergededuplicate",
-        "path": "frontend/src/pages/AiTools.jsx",
-        "route": "/AiTools",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMergededuplicate",
-        "path": "frontend/src/pages/Dashboard.jsx:12",
-        "route": "/ai-tools",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMonitorrealtimeaudi",
-        "path": "client/src/App.js:153",
-        "route": "/ai-tools",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMonitorrealtimeaudi",
-        "path": "client/src/components/Layout.js:22",
-        "route": "/ai-tools",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMonitorrealtimeaudi",
-        "path": "client/src/pages/AIToolsPage.js",
-        "route": "/AIToolsPage",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIAutomateinternational",
-        "path": "frontend/src/components/Navbar.jsx:32",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
       }
     ]
   },
@@ -1462,14 +1180,12 @@
   {
     "name": "Base Models",
     "canonicalKey": "base model",
-    "aliases": [
-      "Base Models Page"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/BaseModelsPage",
       "/base-models"
     ],
     "sourceProjects": [
@@ -1479,6 +1195,13 @@
       "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/BaseModelsPage.jsx:1",
+        "route": "/base-models",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
       {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
@@ -1492,7 +1215,26 @@
         "path": "frontend/src/components/Layout.jsx:27",
         "route": "/base-models",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Base Models Page",
+    "canonicalKey": "base model",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/BaseModelsPage"
+    ],
+    "sourceProjects": [
+      "AIFineTuningPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
@@ -1637,12 +1379,14 @@
     "canonicalKey": "behavior pattern",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "model",
       "navigation",
       "page"
     ],
     "routes": [
-      "/BehaviorPatterns"
+      "/BehaviorPatterns",
+      "/behaviors"
     ],
     "sourceProjects": [
       "AIDigitalTwinPlatform"
@@ -1651,6 +1395,13 @@
       "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDigitalTwinPlatform",
+        "path": "client/src/pages/BehaviorPatterns.jsx:1",
+        "route": "/behaviors",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
       {
         "kind": "model",
         "sourceProject": "AIDigitalTwinPlatform",
@@ -3226,14 +2977,12 @@
   {
     "name": "Custom Models",
     "canonicalKey": "custom model",
-    "aliases": [
-      "Custom Models Page"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/CustomModelsPage",
       "/custom-models"
     ],
     "sourceProjects": [
@@ -3243,6 +2992,13 @@
       "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/CustomModelsPage.jsx:1",
+        "route": "/custom-models",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
       {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
@@ -3256,7 +3012,26 @@
         "path": "frontend/src/components/Layout.jsx:28",
         "route": "/custom-models",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Custom Models Page",
+    "canonicalKey": "custom model",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CustomModelsPage"
+    ],
+    "sourceProjects": [
+      "AIFineTuningPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
@@ -3269,14 +3044,12 @@
   {
     "name": "Data Pipelines",
     "canonicalKey": "data pipeline",
-    "aliases": [
-      "Data Pipelines Page"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/DataPipelinesPage",
       "/data-pipelines"
     ],
     "sourceProjects": [
@@ -3286,6 +3059,13 @@
       "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/DataPipelinesPage.jsx:1",
+        "route": "/data-pipelines",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
       {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
@@ -3299,7 +3079,26 @@
         "path": "frontend/src/components/Layout.jsx:46",
         "route": "/data-pipelines",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Data Pipelines Page",
+    "canonicalKey": "data pipeline",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/DataPipelinesPage"
+    ],
+    "sourceProjects": [
+      "AIFineTuningPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
@@ -3647,6 +3446,54 @@
         "sourceProject": "AIFineTuningPlatform",
         "path": "frontend/src/pages/DeploymentTemplatesPage.jsx",
         "route": "/DeploymentTemplatesPage",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      }
+    ]
+  },
+  {
+    "name": "Deployments",
+    "canonicalKey": "deployment",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "page"
+    ],
+    "routes": [
+      "/deployments"
+    ],
+    "sourceProjects": [
+      "AIFineTuningPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/DeploymentsPage.jsx:1",
+        "route": "/deployments",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/App.jsx:91",
+        "route": "/deployments",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/components/Layout.jsx:38",
+        "route": "/deployments",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/GlobalSearchPage.jsx:11",
+        "route": "/deployments",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       }
     ]
@@ -4056,7 +3903,6 @@
     ],
     "sourceProjects": [
       "AILocalFirstAgent",
-      "AIProjectManager",
       "AIRAGPlatform",
       "AISMSchatbot",
       "AiBusinessAutomation",
@@ -4067,41 +3913,12 @@
     "consolidatedFromApps": [
       "ai-ml-platforms-dev-tools/agent-observability-plus",
       "ai-ml-platforms-dev-tools/automateinternational",
-      "ai-ml-platforms-dev-tools/browser-extension-platform",
       "ai-ml-platforms-dev-tools/luran-ai",
       "ai-ml-platforms-dev-tools/pdfgenius-merged",
       "ai-ml-platforms-dev-tools/product-management-copilot",
       "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIProjectManager",
-        "path": "frontend/src/components/Navbar.jsx:37",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIProjectManager",
-        "path": "frontend/src/App.jsx:108",
-        "route": "/documents",
-        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIProjectManager",
-        "path": "frontend/src/pages/Dashboard.jsx:13",
-        "route": "/documents",
-        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIProjectManager",
-        "path": "frontend/src/pages/Documents.jsx",
-        "route": "/Documents",
-        "originApp": "ai-ml-platforms-dev-tools/browser-extension-platform"
-      },
       {
         "kind": "page",
         "sourceProject": "AISMSchatbot",
@@ -4327,6 +4144,32 @@
     ]
   },
   {
+    "name": "Edit Twin",
+    "canonicalKey": "twin",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/twins/:id"
+    ],
+    "sourceProjects": [
+      "AIDigitalTwinPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDigitalTwinPlatform",
+        "path": "client/src/pages/TwinDetail.jsx:1",
+        "route": "/twins/:id",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      }
+    ]
+  },
+  {
     "name": "Emotion Evolve",
     "canonicalKey": "emotion evolve",
     "aliases": [],
@@ -4421,8 +4264,49 @@
   {
     "name": "Evaluations",
     "canonicalKey": "evaluation",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "page"
+    ],
+    "routes": [
+      "/evaluations"
+    ],
+    "sourceProjects": [
+      "AIFineTuningPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/EvaluationsPage.jsx:1",
+        "route": "/evaluations",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/App.jsx:89",
+        "route": "/evaluations",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/components/Layout.jsx:29",
+        "route": "/evaluations",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      }
+    ]
+  },
+  {
+    "name": "Evaluations Page",
+    "canonicalKey": "evaluation",
     "aliases": [
-      "Evaluations Page"
+      "Evaluations"
     ],
     "kinds": [
       "api",
@@ -4498,20 +4382,6 @@
         "path": "backend/routes/governedRuns.js:178",
         "route": "/specs/:id/evaluations",
         "originApp": "ai-ml-platforms-dev-tools/mcp-server"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "frontend/src/App.jsx:89",
-        "route": "/evaluations",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFineTuningPlatform",
-        "path": "frontend/src/components/Layout.jsx:29",
-        "route": "/evaluations",
-        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       },
       {
         "kind": "page",
@@ -4982,14 +4852,12 @@
   {
     "name": "Fine Tuning Jobs",
     "canonicalKey": "fine jobs tuning",
-    "aliases": [
-      "Fine Tuning Jobs Page"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/FineTuningJobsPage",
       "/fine-tuning-jobs"
     ],
     "sourceProjects": [
@@ -4999,6 +4867,13 @@
       "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/FineTuningJobsPage.jsx:1",
+        "route": "/fine-tuning-jobs",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
       {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
@@ -5012,7 +4887,26 @@
         "path": "frontend/src/components/Layout.jsx:25",
         "route": "/fine-tuning-jobs",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Fine Tuning Jobs Page",
+    "canonicalKey": "fine jobs tuning",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/FineTuningJobsPage"
+    ],
+    "sourceProjects": [
+      "AIFineTuningPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
@@ -7269,74 +7163,29 @@
     "canonicalKey": "base knowledge",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "model",
       "navigation",
       "page"
     ],
     "routes": [
       "/KnowledgeBase",
-      "/knowledge-base"
+      "/knowledge"
     ],
     "sourceProjects": [
-      "AIChatbotBuilder",
       "AIDigitalTwinPlatform",
-      "AIRAGPlatform",
-      "luranAI"
+      "AIRAGPlatform"
     ],
     "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/code-interpreter",
-      "ai-ml-platforms-dev-tools/luran-ai",
       "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIChatbotBuilder",
-        "path": "frontend/src/components/Sidebar.jsx:18",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIChatbotBuilder",
-        "path": "frontend/src/App.jsx:82",
-        "route": "/knowledge-base",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIChatbotBuilder",
-        "path": "frontend/src/components/Sidebar.jsx:18",
-        "route": "/knowledge-base",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIChatbotBuilder",
-        "path": "frontend/src/pages/Dashboard.jsx:8",
-        "route": "/knowledge-base",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIChatbotBuilder",
-        "path": "frontend/src/pages/KnowledgeBase.jsx",
-        "route": "/KnowledgeBase",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "luranAI",
-        "path": "src/components/layout/Sidebar.tsx:124",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "luranAI",
-        "path": "src/app/(dashboard)/knowledge-base/page.tsx",
-        "route": "/knowledge-base",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+        "kind": "ai-page",
+        "sourceProject": "AIDigitalTwinPlatform",
+        "path": "client/src/pages/KnowledgeBase.jsx:1",
+        "route": "/knowledge",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       },
       {
         "kind": "model",
@@ -7824,14 +7673,12 @@
   {
     "name": "Model Comparisons",
     "canonicalKey": "comparison model",
-    "aliases": [
-      "Model Comparisons Page"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/ModelComparisonsPage",
       "/model-comparisons"
     ],
     "sourceProjects": [
@@ -7841,6 +7688,13 @@
       "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/ModelComparisonsPage.jsx:1",
+        "route": "/model-comparisons",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
       {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
@@ -7854,7 +7708,26 @@
         "path": "frontend/src/components/Layout.jsx:31",
         "route": "/model-comparisons",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Model Comparisons Page",
+    "canonicalKey": "comparison model",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ModelComparisonsPage"
+    ],
+    "sourceProjects": [
+      "AIFineTuningPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
@@ -8258,6 +8131,7 @@
     "canonicalKey": "personality",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "model",
       "navigation",
       "page"
@@ -8273,6 +8147,13 @@
       "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDigitalTwinPlatform",
+        "path": "client/src/pages/Personalities.jsx:1",
+        "route": "/personalities",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
       {
         "kind": "model",
         "sourceProject": "AIDigitalTwinPlatform",
@@ -8964,42 +8845,31 @@
   {
     "name": "Prompt Templates",
     "canonicalKey": "prompt template",
-    "aliases": [
-      "Prompt Templates Page"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "navigation",
       "page"
     ],
     "routes": [
       "/PromptTemplates",
-      "/PromptTemplatesPage",
       "/prompt-templates"
     ],
     "sourceProjects": [
       "AIFineTuningPlatform",
-      "AIRAGPlatform",
-      "AIassistant"
+      "AIRAGPlatform"
     ],
     "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/assistant",
       "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
       {
-        "kind": "api",
-        "sourceProject": "AIassistant",
-        "path": "backend/routes/customViews.js:334",
+        "kind": "ai-page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/PromptTemplatesPage.jsx:1",
         "route": "/prompt-templates",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIassistant",
-        "path": "backend/routes/customViews.js:338",
-        "route": "/prompt-templates",
-        "originApp": "ai-ml-platforms-dev-tools/assistant"
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       },
       {
         "kind": "page",
@@ -9042,6 +8912,45 @@
         "path": "frontend/src/pages/PromptTemplates.jsx",
         "route": "/PromptTemplates",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      }
+    ]
+  },
+  {
+    "name": "Prompt Templates Page",
+    "canonicalKey": "prompt template",
+    "aliases": [
+      "Prompt Templates"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/PromptTemplatesPage",
+      "/prompt-templates"
+    ],
+    "sourceProjects": [
+      "AIFineTuningPlatform",
+      "AIassistant"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/assistant",
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIassistant",
+        "path": "backend/routes/customViews.js:334",
+        "route": "/prompt-templates",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIassistant",
+        "path": "backend/routes/customViews.js:338",
+        "route": "/prompt-templates",
+        "originApp": "ai-ml-platforms-dev-tools/assistant"
       },
       {
         "kind": "page",
@@ -9689,6 +9598,77 @@
         "sourceProject": "AIDeepfakeDetectionPlatform",
         "path": "frontend/src/pages/ReportBuilder.jsx",
         "route": "/ReportBuilder",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      }
+    ]
+  },
+  {
+    "name": "Reports",
+    "canonicalKey": "report",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/reports"
+    ],
+    "sourceProjects": [
+      "AIDeepfakeDetectionPlatform",
+      "AIFineTuningPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDeepfakeDetectionPlatform",
+        "path": "backend/src/routes/extra.js:532",
+        "route": "/reports",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDeepfakeDetectionPlatform",
+        "path": "backend/src/routes/extra.js:553",
+        "route": "/reports",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDeepfakeDetectionPlatform",
+        "path": "frontend/src/App.jsx:88",
+        "route": "/reports",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDeepfakeDetectionPlatform",
+        "path": "frontend/src/pages/Dashboard.jsx:70",
+        "route": "/reports",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/ReportsPage.jsx:1",
+        "route": "/reports",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/App.jsx:106",
+        "route": "/reports",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/components/Layout.jsx:73",
+        "route": "/reports",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       }
     ]
@@ -10905,11 +10885,13 @@
     "canonicalKey": "analysis sentiment",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "navigation",
       "page"
     ],
     "routes": [
-      "/SentimentAnalysis"
+      "/SentimentAnalysis",
+      "/sentiments"
     ],
     "sourceProjects": [
       "AIDigitalTwinPlatform"
@@ -10918,6 +10900,13 @@
       "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDigitalTwinPlatform",
+        "path": "client/src/pages/SentimentAnalysis.jsx:1",
+        "route": "/sentiments",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
       {
         "kind": "navigation",
         "sourceProject": "AIDigitalTwinPlatform",
@@ -13318,14 +13307,12 @@
   {
     "name": "Training Configs",
     "canonicalKey": "config training",
-    "aliases": [
-      "Training Configs Page"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/TrainingConfigsPage",
       "/training-configs"
     ],
     "sourceProjects": [
@@ -13335,6 +13322,13 @@
       "ai-ml-platforms-dev-tools/rag-platform"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/TrainingConfigsPage.jsx:1",
+        "route": "/training-configs",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
       {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
@@ -13348,12 +13342,108 @@
         "path": "frontend/src/components/Layout.jsx:30",
         "route": "/training-configs",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Training Configs Page",
+    "canonicalKey": "config training",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/TrainingConfigsPage"
+    ],
+    "sourceProjects": [
+      "AIFineTuningPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIFineTuningPlatform",
         "path": "frontend/src/pages/TrainingConfigsPage.jsx",
         "route": "/TrainingConfigsPage",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      }
+    ]
+  },
+  {
+    "name": "Training Data",
+    "canonicalKey": "data training",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "model",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/TrainingData",
+      "/training"
+    ],
+    "sourceProjects": [
+      "AIDigitalTwinPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDigitalTwinPlatform",
+        "path": "client/src/pages/TrainingData.jsx:1",
+        "route": "/training",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "model",
+        "sourceProject": "AIDigitalTwinPlatform",
+        "path": "server/models/TrainingData.js",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIDigitalTwinPlatform",
+        "path": "client/src/components/Sidebar.jsx:21",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDigitalTwinPlatform",
+        "path": "client/src/pages/TrainingData.jsx",
+        "route": "/TrainingData",
+        "originApp": "ai-ml-platforms-dev-tools/rag-platform"
+      }
+    ]
+  },
+  {
+    "name": "Training Datasets",
+    "canonicalKey": "dataset training",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/datasets"
+    ],
+    "sourceProjects": [
+      "AIFineTuningPlatform"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/rag-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFineTuningPlatform",
+        "path": "frontend/src/pages/DatasetsPage.jsx:1",
+        "route": "/datasets",
         "originApp": "ai-ml-platforms-dev-tools/rag-platform"
       }
     ]

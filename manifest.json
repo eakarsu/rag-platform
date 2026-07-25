@@ -11,12 +11,12 @@
     "AIFineTuningPlatform",
     "AIRAGPlatform"
   ],
-  "featureCount": 359,
-  "candidateFeatureCount": 508,
-  "eliminatedSimilarFeatures": 149,
-  "evidenceCount": 984,
-  "aiPageCount": 0,
-  "sourceAIPageCount": 0,
+  "featureCount": 372,
+  "candidateFeatureCount": 510,
+  "eliminatedSimilarFeatures": 138,
+  "evidenceCount": 969,
+  "aiPageCount": 18,
+  "sourceAIPageCount": 18,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -25,6 +25,6 @@
     "seededTables": 19,
     "seededRows": 335
   },
-  "visibleFeatureCount": 8,
+  "visibleFeatureCount": 23,
   "featureVisibilityMode": "seeded-or-ai"
 }
